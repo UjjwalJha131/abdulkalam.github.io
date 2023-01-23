@@ -26,6 +26,7 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   min-width: 100vw;
+  background-size: contain;
 }
 
 #title {
@@ -60,8 +61,17 @@ body {
     }
 }
 
+@media screen and (min-width: 851px){
+    #image {
+        width: 400px;
+        margin: 0 20px;
+        border: 2px solid #EAC7C7;
+      }
+    }
+
+
 #image {
-  width: 450px;
+  width: 350px;
   margin: 0 10px;
   border: 2px solid #EAC7C7;
 }
