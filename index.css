@@ -1,0 +1,147 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+    min-width: 100vw;
+    background-color: #EAC7C7;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 22px;
+}
+
+#main {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-width: 100vw;
+}
+
+#title {
+  color: black;
+  padding-top: 35px;
+}
+
+#topPara {
+  color: black;
+  padding: 1rem 0;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.galary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 850px){
+    .galary {
+       flex-direction: column;
+    }
+}
+
+#image {
+  width: 450px;
+  margin: 0 10px;
+  border: 2px solid #EAC7C7;
+}
+
+@media screen and (max-width: 850px){
+    #image {
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 850px){
+    #image  {
+       width: 100%;
+    }
+}
+
+#img-caption {
+  font-size: 18px;
+  margin-top: 2rem;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: ghostwhite;
+}
+
+@media screen and (max-width: 850px){
+    #img-caption {
+        margin-top: .3rem;
+    }
+}
+
+#tribute-info {
+  font-size: 30px;
+  text-align: left;
+  padding: 20px 24.5px;
+  padding-top: 3.5rem;
+}
+
+#Bio {
+  color: black;
+  font-size: 22px;
+  text-align: left;
+  font-weight: 500;
+  padding-left: 48px;
+  padding-right: 10px;
+  letter-spacing: normal;
+
+  
+}
+
+@media screen and (max-width: 500px){
+    #Bio  {
+       padding-left: 38px;
+    }
+
+    #tribute-info {
+        padding: 10px 20px;
+    }
+
+    .time {
+        padding: 0 10px;
+    }
+}
+
+li {
+  padding: 5px 0;
+}
+
+.pm {
+  font-size: 24px;
+  padding: 30px 48px;
+  font-weight: 600;
+}
+
+.time {
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+#tribute-link {
+  font-size: 22;
+  text-decoration: none;
+  color: red;
+}
